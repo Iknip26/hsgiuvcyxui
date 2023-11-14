@@ -5,7 +5,7 @@
   class="light-style layout-navbar-fixed layout-menu-fixed"
   dir="ltr"
   data-theme="theme-default"
-  data-assets-path="../../assets/"
+  data-assets-path="assets/"
   data-template="vertical-menu-template">
   <head>
     <meta charset="utf-8" />
@@ -17,45 +17,46 @@
 
     <meta name="description" content="" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="../../assets/img/favicon/favicon.ico" />
+     <!-- Favicon -->
+     <link rel="icon" type="image/x-icon" href="assets/img/favicon/favicon.ico" />
+     <link rel="icon" type="image/x-icon" href="assets/img/flaticon/flaticon.ico" />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet" />
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+     <link
+       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+       rel="stylesheet" />
 
-    <!-- Icons -->
-    <link rel="stylesheet" href="../../assets/vendor/fonts/materialdesignicons.css" />
-    <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" />
-    <!-- Menu waves for no-customizer fix -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/node-waves/node-waves.css" />
+     <!-- Icons -->
+     <link rel="stylesheet" href="assets/vendor/fonts/materialdesignicons.css" />
+     <link rel="stylesheet" href="assets/vendor/fonts/fontawesome.css" />
+     <!-- Menu waves for no-customizer fix -->
+     <link rel="stylesheet" href="assets/vendor/libs/node-waves/node-waves.css" />
 
-    <!-- Core CSS -->
-    <link rel="stylesheet" href="css/rtl/core.css" class="template-customizer-core-css" />
-    <link rel="stylesheet" href="css/rtl/theme-default.css" class="template-customizer-theme-css" />
-    <link rel="stylesheet" href="css/demo.css" />
+     <!-- Core CSS -->
+     <link rel="stylesheet" href="assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
+     <link rel="stylesheet" href="assets/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css" />
+     <link rel="stylesheet" href="assets/css/demo.css" />
 
-    <!-- Vendors CSS -->
-    <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/apex-charts/apex-charts.css" />
-    <link rel="stylesheet" href="../../assets/vendor/libs/swiper/swiper.css" />
+     <!-- Vendors CSS -->
+     <link rel="stylesheet" href="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+     <link rel="stylesheet" href="assets/vendor/libs/typeahead-js/typeahead.css" />
+     <link rel="stylesheet" href="assets/vendor/libs/datatables-bs5/datatables.bootstrap5.css" />
+     <link rel="stylesheet" href="assets/vendor/libs/datatables-responsive-bs5/responsive.bootstrap5.css" />
+     <link rel="stylesheet" href="assets/vendor/libs/apex-charts/apex-charts.css" />
+     <link rel="stylesheet" href="assets/vendor/libs/swiper/swiper.css" />
 
-    <!-- Page CSS -->
-    <link rel="stylesheet" href="css/pages/cards-statistics.css" />
-    <!-- Helpers -->
-    <script src="../../assets/vendor/js/helpers.js"></script>
+     <!-- Page CSS -->
+     <link rel="stylesheet" href="assets/vendor/css/pages/cards-statistics.css" />
+     <!-- Helpers -->
+     <script src="assets/vendor/js/helpers.js"></script>
 
-    <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
-    <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-    <script src="../../assets/vendor/js/template-customizer.js"></script>
-    <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="../../assets/js/config.js"></script>
+     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
+     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+     <script src="assets/vendor/js/template-customizer.js"></script>
+     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+     <script src="assets/js/config.js"></script>
   </head>
   <style>
     .body {
@@ -69,8 +70,8 @@
     }
 
     .logo {
-      width: 250px;
-      height: 60px;
+      width: 220px;
+      height: 48px;
       margin-top: 30px;
       margin-bottom: -40px;
     }
@@ -449,7 +450,7 @@
                           <div class="d-flex gap-2">
                             <div class="flex-shrink-0">
                               <div class="avatar me-1">
-                                <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                                <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                               </div>
                             </div>
                             <div class="d-flex flex-column flex-grow-1 overflow-hidden w-px-200">
@@ -481,7 +482,7 @@
                           <div class="d-flex gap-2">
                             <div class="flex-shrink-0">
                               <div class="avatar me-1">
-                                <img src="../../assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle" />
+                                <img src="assets/img/avatars/2.png" alt class="w-px-40 h-auto rounded-circle" />
                               </div>
                             </div>
                             <div class="d-flex flex-column flex-grow-1 overflow-hidden w-px-200">
@@ -515,7 +516,7 @@
                           <div class="d-flex gap-2">
                             <div class="flex-shrink-0">
                               <div class="avatar me-1">
-                                <img src="../../assets/img/avatars/9.png" alt class="w-px-40 h-auto rounded-circle" />
+                                <img src="assets/img/avatars/9.png" alt class="w-px-40 h-auto rounded-circle" />
                               </div>
                             </div>
                             <div class="d-flex flex-column flex-grow-1 overflow-hidden w-px-200">
@@ -551,7 +552,7 @@
                           <div class="d-flex gap-2">
                             <div class="flex-shrink-0">
                               <div class="avatar me-1">
-                                <img src="../../assets/img/avatars/5.png" alt class="w-px-40 h-auto rounded-circle" />
+                                <img src="assets/img/avatars/5.png" alt class="w-px-40 h-auto rounded-circle" />
                               </div>
                             </div>
                             <div class="d-flex flex-column flex-grow-1 overflow-hidden w-px-200">
@@ -567,7 +568,7 @@
                           <div class="d-flex gap-2">
                             <div class="flex-shrink-0">
                               <div class="avatar me-1">
-                                <img src="../../assets/img/avatars/6.png" alt class="w-px-40 h-auto rounded-circle" />
+                                <img src="assets/img/avatars/6.png" alt class="w-px-40 h-auto rounded-circle" />
                               </div>
                             </div>
                             <div class="d-flex flex-column flex-grow-1 overflow-hidden w-px-200">
@@ -614,7 +615,7 @@
                 <li class="nav-item navbar-dropdown dropdown-user dropdown">
                   <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);" data-bs-toggle="dropdown">
                     <div class="avatar avatar-online">
-                      <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                      <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                     </div>
                   </a>
                   <ul class="dropdown-menu dropdown-menu-end">
@@ -623,7 +624,7 @@
                         <div class="d-flex">
                           <div class="flex-shrink-0 me-3">
                             <div class="avatar avatar-online">
-                              <img src="../../assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
+                              <img src="assets/img/avatars/1.png" alt class="w-px-40 h-auto rounded-circle" />
                             </div>
                           </div>
                           <div class="flex-grow-1">
@@ -723,7 +724,7 @@
                   <div class="user-profile-header d-flex flex-column flex-sm-row text-sm-start text-center mb-4">
                     <div class="flex-shrink-0 mt-n2 mx-sm-0 mx-auto">
                       <img
-                        src="../../assets/img/avatars/1.png"
+                        src="assets/img/avatars/1.png"
                         alt="user image"
                         class="d-block h-auto ms-0 ms-sm-4 rounded user-profile-img"
                         style="width: 140px;"/>
@@ -786,28 +787,28 @@
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
-    <script src="../../assets/vendor/libs/popper/popper.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="../../assets/vendor/libs/node-waves/node-waves.js"></script>
+    <script src="assets/vendor/libs/jquery/jquery.js"></script>
+    <script src="assets/vendor/libs/popper/popper.js"></script>
+    <script src="assets/vendor/js/bootstrap.js"></script>
+    <script src="assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="assets/vendor/libs/node-waves/node-waves.js"></script>
 
-    <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
-    <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
-    <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
+    <script src="assets/vendor/libs/hammer/hammer.js"></script>
+    <script src="assets/vendor/libs/i18n/i18n.js"></script>
+    <script src="assets/vendor/libs/typeahead-js/typeahead.js"></script>
 
-    <script src="js/menu.js"></script>
+    <script src="assets/vendor/js/menu.js"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="../../assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
-    <script src="../../assets/vendor/libs/apex-charts/apexcharts.js"></script>
-    <script src="../../assets/vendor/libs/swiper/swiper.js"></script>
+    <script src="assets/vendor/libs/datatables-bs5/datatables-bootstrap5.js"></script>
+    <script src="assets/vendor/libs/apex-charts/apexcharts.js"></script>
+    <script src="assets/vendor/libs/swiper/swiper.js"></script>
 
     <!-- Main JS -->
-    <script src="js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 
     <!-- Page JS -->
-    <script src="js/dashboards-ecommerce.js"></script>
+    <script src="assets/js/dashboards-ecommerce.js"></script>
   </body>
 </html>

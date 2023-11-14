@@ -17,4 +17,8 @@ class login_controller extends Controller
     public function shopping(){
         return view('layouts.auth-shopping-page');
     }
+
+    public function kode_belanja(){
+        return view('layouts.auth-kode-belanja');
+    }
 }
